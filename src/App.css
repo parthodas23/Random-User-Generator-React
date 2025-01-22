@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center container horizontally */
+  padding: 20px; /* Add some padding for spacing */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f8f8f8; /* Light background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.picture img{
+    border: 1px solid coral;
+    width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Keep width and height equal for a perfect circle */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image scales properly inside the circle */
+  border: 3px solid #ccc; /* Optional: Add a border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+.btn{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+
+  .btn:active {
+    background-color: darkblue;
+    box-shadow: 0 5px 0 darkblue; 
+  }
